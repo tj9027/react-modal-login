@@ -1,0 +1,33 @@
+{
+  "name": "react-login-modal",
+  "version": "1.0.0",
+  "description": "login page inside modal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "live": "webpack-dev-server"
+  },
+  "author": "joseph tolentino cayamanda",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-modal": "^3.5.1",
+    "sass-loader": "^7.1.0",
+    "semanticui-react": "^0.2.3",
+    "style-loader": "^0.23.0",
+    "validator": "^10.7.1",
+    "webpack": "^4.19.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "babel-loader": "^8.0.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
